@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quit"
+            android:icon="@drawable/ic_arrow_back_white_24dp"
+            android:title="Back" />
+        <item
+            android:id="@+id/nav_manage_shift"
+            android:icon="@drawable/ic_shift_primary_24dp"
+            android:title="Shift management" />
+        <item
+            android:id="@+id/nav_import_data"
+            android:icon="@drawable/ic_exchange_24dp"
+            android:title="Import data" />
+        <item
+            android:id="@+id/nav_export_data"
+            android:icon="@drawable/ic_exchange_24dp"
+            android:title="Export data" />
+        <item
+            android:id="@+id/nav_ecr_operation"
+            android:icon="@drawable/ic_printer_primary_24dp"
+            android:title="Fiscal operations" />
+        <item
+            android:id="@+id/nav_refund_order"
+            android:icon="@drawable/ic_refund_primary_24dp"
+            android:title="Refund an order" />
+        <item
+            android:id="@+id/nav_equipments"
+            android:icon="@drawable/ic_device_hub_primary_24dp"
+            android:title="Equipments" />
+        <item
+            android:id="@+id/nav_assign_devices"
+            android:icon="@drawable/ic_printer_primary_24dp"
+            android:title="Assigning devices" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_users_primary_24dp"
+            android:title="Users" />
+        <item
+            android:id="@+id/nav_log_journal"
+            android:icon="@drawable/ic_logs_primary_24dp"
+            android:title="Log events" />
+    </group>
+</menu>
